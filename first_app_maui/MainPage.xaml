@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="first_app_maui.MainPage">
+
+    <ScrollView>
+        <VerticalStackLayout Padding="20">
+            <Label Text="Digite seu nome:"
+                   FontSize="20"/>
+
+            <Entry x:Name="NomeEntry"
+                   Placeholder="Digite aqui..."/>
+
+            <Button Text="Mostrar Mensagem"
+                    Clicked="OnButtonClicked"/>
+
+            <Label x:Name="MensagemLabel"
+                   FontSize="18"
+                   TextColor="Blue"/>
+
+            <Button Text="SecondPage"
+                    Clicked="OnNavegarClicked"/>
+
+        </VerticalStackLayout>
+    </ScrollView>
+
+</ContentPage>
