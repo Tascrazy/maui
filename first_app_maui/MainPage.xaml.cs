@@ -17,7 +17,8 @@ public partial class MainPage : ContentPage
 
 	private async void OnNavegarClicked(object sender, EventArgs e)
 	{
-		await Navigation.PushAsync(new first_app_maui.Pages.SecondPage());
+		await Navigation.PushAsync(new Pages.SecondPage());
+
 	}
 
 }

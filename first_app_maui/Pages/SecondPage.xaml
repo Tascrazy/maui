@@ -7,6 +7,9 @@
                FontSize="24"
                FontAttributes="Bold"/>
 
+        <Button Text="Responder Pergunta"
+                Clicked="OnQuestionButtonClicked"/>
+
         <Button Text="Voltar"
                 Clicked="OnVoltarClicked"/>
     </VerticalStackLayout>
